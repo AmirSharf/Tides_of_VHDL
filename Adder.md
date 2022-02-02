@@ -116,7 +116,7 @@ Timing Summary:<br><pre>
 </pre>
 <h2> Method 2 </h2>
 
-In this method I changed the circuitry with _Combinational circuit with a sequential environment_
+In this method I changed the circuitry with _Combinational circuit with a sequential environment. <br>
 `Source Code`
 <br>
 
