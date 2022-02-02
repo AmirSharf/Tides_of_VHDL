@@ -109,15 +109,18 @@ After that click on the Simulation > Run Simulation > Run Behavioral Simulation 
 As you can see in the below that 
 ![image](https://user-images.githubusercontent.com/71962033/152110618-7b48c1ab-6e59-49cc-94e5-787d7a5ecec0.png)
 
-Timing Summary:
+Timing Summary:<br><pre>
      WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints       
     -------       -------   -------------------    ------------------      
-     -2.996      -23.699              9                    9 
-
+     -2.996        -23.699               9                     9 
+</pre>
 <h2> Method 2 </h2>
+
 In this method I changed the circuitry with _Combinational circuit with a sequential environment_
 `Source Code`
-```js
+<br>
+
+```Js
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -140,6 +143,7 @@ Cout <= Carry(8);
 end Behavioral;
 ```
 `Test Bench` are same as above but i change the value of A so that output clearly visible.
+<br>
 ```css
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -206,7 +210,8 @@ end Behavioral;
 
 
 
-Timing Summary:
+Timing Summary: <br> <pre>
      WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints       
     -------       -------   -------------------    ------------------      
      -3.733      -24.756              9                    9 
+<pre>
