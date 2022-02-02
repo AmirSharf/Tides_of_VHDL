@@ -105,7 +105,7 @@ B_tb <= "11111111";
 end process stim_process;
 end Behavioral;
 ```
-<br>
+
 `XDC` that explain the timing summary of the Adder. <br>
 ```Js
 set_max_delay -from [get_ports {A B Cin}] -to [get_ports {Sum Cout}] 4.000
@@ -113,6 +113,7 @@ set_max_delay -from [get_ports {A B Cin}] -to [get_ports {Sum Cout}] 4.000
 <br>
 After that click on the Simulation > Run Simulation > Run Behavioral Simulation <br>
 As you can see in the below that 
+
 ![image](https://user-images.githubusercontent.com/71962033/152110618-7b48c1ab-6e59-49cc-94e5-787d7a5ecec0.png)
 
 Timing Summary:<br><pre>
