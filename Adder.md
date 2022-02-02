@@ -1,9 +1,17 @@
-<img src = https://cdncontribute.geeksforgeeks.org/wp-content/uploads/1-77.png >
+<div align = "center">
+  <h1> Adder </h1>
+  <sub> Author: <a> Amir Sharfuddin</a> <br>
+    <small> Jan, 2022 </small>
+  </sub> </div>
+  
+  --------
 
-When we see above image three inputs (A,B,C-In) and two outputs(C-out,Sum ). <br>
+<img src = https://cdncontribute.geeksforgeeks.org/wp-content/uploads/1-77.png  class="center">
+
+When we see above image three inputs (A,B,C-In) and two outputs(C-out,Sum ).
 Lets take A and B is a 8 bits and C-In is set to 0's.
 
-First define the source code
+First define the `Source Code`
 ```JS
 -- Define the library 
 library IEEE;
@@ -31,7 +39,7 @@ Cout <= z(8);
 end Behavioral;
 ```
 
-After that it's necessary to define the Testbench of the system
+After that it's necessary to define the `Testbench` of the system
 ```Js 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
