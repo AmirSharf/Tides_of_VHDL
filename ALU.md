@@ -83,3 +83,9 @@ end loop
 
 end Behavioral;
 ```
+`Waveform`
+![image](https://user-images.githubusercontent.com/71962033/152400941-fb612df4-b425-4d0b-b451-45f295da3020.png)
+
+<pre>
+
+</pre>
