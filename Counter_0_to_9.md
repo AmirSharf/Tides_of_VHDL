@@ -65,6 +65,9 @@ end process clk_process;
 end Behavioral;
 
 ```
+`Waveform`
+![image](https://user-images.githubusercontent.com/71962033/152403123-ac038f8a-0506-4278-88ed-32b3c8c4bcd0.png)
+
 <pre>
      WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      
      -------      -------  ---------------------  -------------------      -------    
