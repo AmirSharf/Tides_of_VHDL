@@ -114,3 +114,8 @@ d_tb <= "1111";load_tb <='1';
 end process;
 end Behavioral;
 ```
+<pre>
+  WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      
+  -------      -------  ---------------------  -------------------   
+   3.937        0.000            0                    8 
+</pre>
