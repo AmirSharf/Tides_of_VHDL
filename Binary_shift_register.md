@@ -114,6 +114,9 @@ d_tb <= "1111";load_tb <='1';
 end process;
 end Behavioral;
 ```
+`Waveform`
+![image](https://user-images.githubusercontent.com/71962033/152403970-bf7772c0-e757-4876-84b5-28272c06295a.png)
+
 <pre>
 Timing Summary :-
   WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      
