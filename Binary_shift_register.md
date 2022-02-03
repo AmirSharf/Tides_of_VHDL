@@ -115,6 +115,7 @@ end process;
 end Behavioral;
 ```
 <pre>
+Timing Summary :-
   WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      
   -------      -------  ---------------------  -------------------   
    3.937        0.000            0                    8 
