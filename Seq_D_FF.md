@@ -77,5 +77,8 @@ set_output_delay -clock [get_clocks clk] -max -add_delay 5.250 [get_ports q]
 ![image](https://user-images.githubusercontent.com/71962033/152556290-26555ac7-f5ed-41cf-8125-0a88b0f57f4c.png)
 
 <pre>
-
+Timing Summary :-
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      
+    -------      -------  ---------------------  -------------------      
+    -16.986      -16.986            1                    2 
 </pre>
