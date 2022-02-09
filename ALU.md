@@ -1,6 +1,5 @@
 <h3> Don't follow the code yet. It's under verification. </h3>
-<br>
-<br>
+
 `Source Code`
 ```JS
 library IEEE;
